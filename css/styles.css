@@ -1,0 +1,373 @@
+html {
+    margin-top: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 52px;
+}
+
+h3 {
+    font-size: 44px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.seccion {
+    margin-top: 70px;
+}
+
+.mg-20 {
+    margin-top: 40px;
+}
+
+.titulo-seccion {
+    color: #b60c53;
+    border-bottom: solid 1px #e1e1e1;
+}
+
+.contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+
+/* LOGO */
+
+.img-logo {
+    margin-top: 5px;
+    width: 70px;
+    height: calc( 70 * 1.1)px;
+}
+
+
+/* NAVEGACION */
+
+.navbar {
+    justify-content: space-between;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding: 5px 20px;
+    margin-right: 5px;
+}
+
+.active,
+.nav-link:hover {
+    background-color: #B3061A;
+    border-radius: 15px;
+}
+
+
+/* ------HEADER----------- */
+
+
+/* FONDO */
+
+.img-fondo {
+    height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fondo_inicio.jpg);
+    background-position: center;
+}
+
+.fondo_elegir {
+    background-size: cover;
+    background-position: center;
+}
+
+.contenido-elegir {
+    color: black;
+}
+
+
+/* CONTENIDO HEADER */
+
+.contenido-ini {
+    color: white;
+    margin-top: 180px;
+    text-align: center;
+}
+
+.botones-h {
+    margin-top: 20px;
+}
+
+.btn-t {
+    background-color: transparent;
+    margin-right: 20px;
+}
+
+.btn-t:hover {
+    background-color: #B3061A;
+}
+
+.btn-t,
+.btn:hover {
+    border: solid 1px white;
+    border-radius: 15px;
+}
+
+.btn-pu {
+    margin-top: 20px;
+    background-color: #B3061A;
+    border-radius: 15px;
+    color: white;
+    padding: 5px 30px;
+    margin-right: 5px;
+}
+
+
+/*---- SOBRE NOSOTROS----- */
+
+.iconos-nosotros {
+    width: 160px;
+    height: calc( 160 * 1.35) px;
+}
+
+.color-img {
+    fill: red;
+}
+
+.contenido-n {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-nos {
+    padding: 10px;
+    background-color: #FCBF02;
+    text-align: center;
+    width: 60%;
+}
+
+
+/** TESTIMONIOS **/
+
+.col-sm-4 img {
+    width: 90%;
+}
+
+.testimonio {
+    max-width: 100%;
+    text-align: right;
+}
+
+
+/** FOOTER **/
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-footer {
+    background-color: #000000;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.site-footer p {
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.site-footer p span {
+    font-weight: 700;
+}
+
+.navegacion {
+    order: -1;
+}
+
+.navegacion a {
+    color: white;
+    margin-right: 15px;
+}
+
+.nav-iconos {
+    display: flex;
+}
+
+.icono-redes {
+    margin-right: 20px;
+    width: 40px;
+}
+
+
+/** NOSOTROS **/
+
+.bg-nav {
+    background-color: #000000;
+}
+
+nav div div a:hover {
+    background-color: #B3061A;
+    opacity: 0.5;
+    color: white;
+    padding: 5px;
+    border-width: 2em;
+    border-radius: 1em;
+}
+
+.titulo-nosotros {
+    background-color: #FCBF02;
+    opacity: 0.6;
+    color: #A90063;
+}
+
+.fondo-nosotros {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/Fondo1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.centrar-caja {
+    margin: 0 auto;
+}
+
+.fondo-texto-nosotros {
+    background-color: white;
+    border: 1px solid red;
+}
+
+.noventa {
+    width: 98%;
+}
+
+.logo-tit {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+
+/** INICIO SESION **/
+
+.img-fondo-inicios {
+    height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fondo_inicio.jpg);
+    background-position: center;
+}
+
+.img-fondo-arrendador {
+    height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fondo_arrendador.png);
+    background-position: center;
+}
+
+.img-fondo-arr {
+    height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fondo_arrendador.png);
+    background-position: center;
+}
+
+.contenedor-inicio {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px #e1e1e1;
+}
+
+.i-usuario,
+.i-contra {
+    text-align: left;
+}
+
+.btn-submit {
+    margin-top: 10px;
+}
+
+.contenido-ini2 {
+    color: white;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.frase {
+    color: white;
+    max-width: 60%;
+    margin-top: 40px;
+    padding: 5px 5px;
+    background-color: #FF0000;
+}
+
+.bg-nav {
+    background-color: #000000;
+}
+
+nav div div a:hover {
+    background-color: #B3061A;
+    opacity: 0.5;
+    color: white;
+    padding: 5px;
+    border-width: 2em;
+    border-radius: 1em;
+}
+
+.nav-act {
+    background-color: #B3061A;
+    color: white;
+    border-radius: 1em;
+}
+
+.titulo-nosotros {
+    background-color: #FCBF02;
+    opacity: 0.6;
+    color: black;
+}
+
+.fondo-nosotros {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/FondoNosotros.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.centrar-caja {
+    margin: 0 auto;
+}
+
+.fondo-texto-nosotros {
+    background-color: white;
+    border: 1px solid red;
+}
+
+.noventa {
+    width: 98%;
+}
+
+.ima-redondo {
+    border-radius: 50%;
+}

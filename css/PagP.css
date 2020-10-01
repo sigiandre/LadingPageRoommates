@@ -1,0 +1,48 @@
+.bg-nav {
+    background-color: #000000;
+}
+
+nav div div a:hover {
+    background-color: #B3061A;
+    opacity: 0.5;
+    color: white;
+    padding: 5px;
+    border-width: 2em;
+    border-radius: 1em;
+}
+
+.nav-act {
+    background-color: #B3061A;
+    color: white;
+    border-radius: 1em;
+}
+
+.titulo-nosotros {
+    background-color: #FCBF02;
+    opacity: 0.6;
+    color: black;
+}
+
+.fondo-nosotros {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../img/FondoNosotros.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.centrar-caja {
+    margin: 0 auto;
+}
+
+.fondo-texto-nosotros {
+    background-color: white;
+    border: 1px solid red;
+}
+
+.noventa {
+    width: 98%;
+}
+
+.ima-redondo {
+    border-radius: 50%;
+}
